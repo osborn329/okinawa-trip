@@ -33,6 +33,7 @@ import saltphoto from './Photo/Salt.jpg'
 
 
 
+
 const days = ref([
   {
     id: 1,
@@ -387,6 +388,16 @@ const days = ref([
     {
       id: 93,
       time: '02:00',
+      title: '🍮 TRIPCAFEOKINAWA',
+      image: '/Photo/Dessert.jpg', 
+      openingHours: '08:00-19:00',
+      busRouteNote: '',
+      remarks: '吸引甜品店\n中段國際通',
+      mapLink: 'https://www.google.com/maps/place/%E8%88%92%E8%8A%99%E9%9B%B7/@26.2152072,127.6818956,17.5z/data=!4m6!3m5!1s0x34e5692a7d0c51cb:0x8f6c7eccb6ba2c44!8m2!3d26.2155976!4d127.6831369!16s%2Fg%2F11yjls_62d?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
+    },
+    {
+      id: 94,
+      time: '02:00',
       title: '🍦 Fontana Gelato',
       image: gelatophoto, 
       openingHours: '10:30-21:30',
@@ -395,7 +406,17 @@ const days = ref([
       mapLink: 'https://www.google.com/maps/place/Fontana+Gelato/@26.2142335,127.6831002,16.75z/data=!3m1!5s0x34e5697a003b4967:0x374f2651008a8c84!4m6!3m5!1s0x34e5697b1d925555:0x904e35daaa7f454e!8m2!3d26.2156548!4d127.6866005!16s%2Fg%2F11cp7ls6lg?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D'
     },
     {
-      id: 94,
+      id: 95,
+      time: '03:00',
+      title: '🍚 Poco Cafe Okinawa',
+      image: '/Photo/PocoCafe.jpg', 
+      openingHours: '09:30-22:00，星期四休息',
+      busRouteNote: '',
+      remarks: 'Taco飯+苦瓜餃子\n後段國際通',
+      mapLink: 'https://www.google.com/maps/place/Poco+Cafe+Okinawa/@26.2157557,127.6841177,17z/data=!3m1!5s0x34e5697a03991b4b:0x4c228405b7a513b8!4m6!3m5!1s0x34e5697a0397e9f7:0xbaed73616f763668!8m2!3d26.2159526!4d127.6868218!16s%2Fg%2F11gdrdp7sh?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
+    },    
+    {
+      id: 96,
       time: '03:00',
       title: '🍟 Calbee+ 沖繩國際通店',
       image: calbeephoto, 
@@ -405,7 +426,7 @@ const days = ref([
       mapLink: 'https://www.google.com/maps/place/Calbee%2B+%E6%B2%96%E7%B9%A9%E5%9C%8B%E9%9A%9B%E9%80%9A%E5%BA%97/@26.2160323,127.6865337,18z/data=!4m6!3m5!1s0x34e5697a58b5678b:0x66e50e017932ccc1!8m2!3d26.2163637!4d127.689128!16s%2Fg%2F11b6rwsj54?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D'
     },
     {
-      id: 95,
+      id: 97,
       time: '05:00',
       title: '🍟 塩の専門店 塩屋',
       image: saltphoto, 
@@ -413,6 +434,16 @@ const days = ref([
       busRouteNote: '',
       remarks: '鹽味雪糕\n後段國際通',
       mapLink: 'https://www.google.com/maps/place/%E5%A1%A9%E3%81%AE%E5%B0%82%E9%96%80%E5%BA%97+%E5%A1%A9%E5%B1%8B+%E5%9B%BD%E9%9A%9B%E9%80%9A%E3%82%8A%E5%BA%97/@26.216778,127.6897328,17z/data=!4m6!3m5!1s0x34e569770beb5e01:0x93a07b9b4b570c8d!8m2!3d26.2166959!4d127.6897678!16s%2Fg%2F11bywdcwhn?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D'
+    },
+    {
+      id: 98,
+      time: '05:00',
+      title: '🍜 暖暮拉麵 那霸牧志店',
+      image: '/Photo/Ramen.jpg', 
+      openingHours: '10:00-02:00',
+      busRouteNote: '',
+      remarks: '沖繩必食拉面\n後段國際通',
+      mapLink: 'https://www.google.com/maps/place/%E6%9A%96%E6%9A%AE%E6%8B%89%E9%BA%B5+%E9%82%A3%E9%9C%B8%E7%89%A7%E5%BF%97%E5%BA%97/@26.2157557,127.6841177,17z/data=!4m6!3m5!1s0x34e5697bcfbeaaab:0x860befe404def6ef!8m2!3d26.2178669!4d127.6873312!16s%2Fg%2F1trpnjsm?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
     }
     
     // 之後可以再慢慢加 92, 93... etc
