@@ -30,7 +30,9 @@ import burgerphoto from './Photo/Burger.jpg'
 import gelatophoto from './Photo/Gelato.jpg'
 import calbeephoto from './Photo/Calbee.jpg'
 import saltphoto from './Photo/Salt.jpg'
-
+import Dessertphoto from './Photo/Dessert.jpg'
+import PocoCafephoto from './Photo/PocoCafe.jpg'
+import Ramenphoto from './Photo/Ramen.jpg'
 
 
 
@@ -389,7 +391,7 @@ const days = ref([
       id: 93,
       time: '02:00',
       title: '🍮 TRIPCAFEOKINAWA',
-      image: '/Photo/Dessert.jpg', 
+      image: Dessertphoto, 
       openingHours: '08:00-19:00',
       busRouteNote: '',
       remarks: '吸引甜品店\n中段國際通',
@@ -409,7 +411,7 @@ const days = ref([
       id: 95,
       time: '03:00',
       title: '🍚 Poco Cafe Okinawa',
-      image: '/Photo/PocoCafe.jpg', 
+      image: PocoCafephoto, 
       openingHours: '09:30-22:00，星期四休息',
       busRouteNote: '',
       remarks: 'Taco飯+苦瓜餃子\n後段國際通',
@@ -439,7 +441,7 @@ const days = ref([
       id: 98,
       time: '05:00',
       title: '🍜 暖暮拉麵 那霸牧志店',
-      image: '/Photo/Ramen.jpg', 
+      image: Ramenphoto, 
       openingHours: '10:00-02:00',
       busRouteNote: '',
       remarks: '沖繩必食拉面\n後段國際通',
